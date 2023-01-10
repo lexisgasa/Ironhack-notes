@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <form action="">
+        <label for="name">Type your name below</label> <br>
+        <input type="text" placeholder="Type your full name" id="name"> <br>
+        <label for="number">Select your age</label><br>
+        <input type="number" placeholder="0" min="0" max="18" id="number"> <br>
+        <label for="bands">Type your 5 fav. bands</label><br>
+        <textarea cols="20" rows="10" placeholder="Type here" id="bands"></textarea> <br>
+        <label for="genre">Choose your fav. style</label> <br>
+        <select name="" id="genre">
+            <option value="rock">Rock</option>
+            <option value="lofi">LoFi</option>
+            <option value="reggae">Reggae</option>
+        </select><br>
+        <button onclick="console.log('Submitted')">Submit</button>
+
+    </form>
+</body>
+</html>
