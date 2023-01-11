@@ -1,15 +1,12 @@
-Alexis Garcia
-Este es mi primer archivo en GitHub :)
+<!-- Text followed by # gets the H1 type -->
+# Introduction
+Hi there, I am Alexis Garcia and this is my first uploaded file :)
 
-# H1 
-# My biography
-
-## H2
-## My first comment
-
+<!-- Text followed by ## gets the H1 type -->
+## Git upload fow
 
 git add .
 
-git commit -m "mensaje descritivo sencillo"
+git commit -m "simple descritive message"
 
 git push origin main
