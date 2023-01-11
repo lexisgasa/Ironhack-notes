@@ -20,12 +20,17 @@
             border: 2px solid rgb(67, 163, 230);
             padding: 20px 0px 20px 20px;
             margin: 10% 10%;
+            /* display: block would give block to each element, therefore no need to <br>'s in html' */
         }
 
+        .label {
+            font-style: italic;
+        }
         .button {
             color: rgb(255,255,255);
             background-color: rgb(67, 163, 230);
             border-radius: 100px;
+            font-weight: lighter;
         }
 
     </style>
@@ -38,7 +43,7 @@
         <input type="email" id="email" size="30px"> <br>
         <label for="commentbox">Comment:</label><br>
         <textarea cols="24" rows="10" placeholder="Type here" id="commentbox"></textarea> <br>
-        <label for="updates">Receive email updates?</label>
+        <label for="updates" class="label">Receive email updates?</label>
         <input type="checkbox" id="updates"><br>
         <button class="button">Submit</button>
     </form>
