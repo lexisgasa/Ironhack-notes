@@ -1,0 +1,14 @@
+h1:nth-child(1) {
+    color: purple;
+}
+
+div :first-of-type {
+    color: blue;
+}
+
+p:nth-child(1) {
+    color: orange;
+}
+    
+
+

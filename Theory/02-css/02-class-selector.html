@@ -57,7 +57,12 @@
         color: green;
       }
 
-      /* LESSON 2 - WEDNESDAY 09 11 2022 */
+      /* LESSON 2 - Wednesday January 11, 2023 */
+      /* .... */
+      /* .... */
+      /* .... */
+      /* .... */
+      /* START HERE */
 
       /* GROUPING CSS SELECTORS */
       /* Con el selector de agrupación, puede seleccionar y aplicar estilo a más de un elemento a la vez. */
@@ -73,7 +78,7 @@
       /* Como su nombre indica, el combinador de descendientes selecciona sólo los descendientes del elemento especificado. */
       /* Esencialmente, primero se menciona el elemento padre, se deja un espacio, y luego se menciona el descendiente del primer elemento, que es el elemento hijo del padre. El elemento hijo es un elemento dentro del elemento padre. */
       #welcome p {
-        font-size: 8px;
+        font-size: 16px;
       }
 
       /* Combinador de hijos directos */
@@ -166,6 +171,10 @@
         color: red;
       }
 
+      .karen {
+        color: blue;
+      }
+
       /* El selector :nth-child() es útil cuando se desea seleccionar elementos basados en una expresión, como la selección de elementos pares o impares */
       .nth-child-example-2 p:nth-child(odd) {
         color: red;
@@ -173,6 +182,10 @@
       /* El selector :first-of-type, selecciona los elementos que son los primeros de ese tipo específico en el contenedor padre. */
       .first-of-type p:first-of-type {
         color: blue;
+      }
+
+      .first-of-type h1 {
+        color: black;
       }
 
       /* El selector de último tipo, :last-of-type, selecciona los elementos que son los últimos de ese tipo específico en el contenedor padre. */
@@ -258,6 +271,7 @@
         <p>Example 001</p>
         <div>
           <p>Example 002</p>
+          <p>Example 002</p>
         </div>
       </div>
       <hr />
@@ -308,7 +322,9 @@
         <hr />
         <div class="nth-child-example">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p class="karen">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <hr />
@@ -321,6 +337,7 @@
         </div>
         <hr />
         <div class="first-of-type">
+          <h1>First of Type</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
