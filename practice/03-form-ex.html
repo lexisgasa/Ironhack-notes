@@ -6,12 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form practice</title>
     <script src="./app.js" defer></script>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+        *{
+            font-family: "roboto";
+        }
+
+        .form1{
+            background-color: cornflowerblue;
+        }
+        .name{
+            font-size: 40px;
+        }
+        #age {
+            margin: 24px;
+        }
+    </style>
 </head>
 <body>
-    <form action="">
-        <label for="name">Type your name below</label> <br>
+    <form action="" class="form1">
+        <label class="name" for="name">Type your name below</label> <br>
         <input type="text" placeholder="Type your full name" id="name"> <br>
-        <label for="number">Select your age</label><br>
+        <label id="age" for="number">Select your age</label><br>
         <input type="number" placeholder="0" min="0" max="18" id="number"> <br>
         <label for="bands">Type your 5 fav. bands</label><br>
         <textarea cols="20" rows="10" placeholder="Type here" id="bands"></textarea> <br>
@@ -20,7 +39,8 @@
             <option value="rock">Rock</option>
             <option value="lofi">LoFi</option>
             <option value="reggae">Reggae</option>
-        </select><br>
+        </select><br
+
         <button onclick="console.log('Submitted')">Submit</button>
 
     </form>
