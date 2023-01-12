@@ -1,34 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* stablish a base font size so the following "em" property
+    applies in base of that one */
+    font-size: 16px;
+}
+
 header { 
     background-image: url("../images/apple-pie.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     display: flex;
+    /* y axis */
     align-items: center;
+    /* x axis */
     justify-content: center;
-    font-size: 50px;
+    
 }
 
 header h1{
     color: white;
+    font-size: 5em;
+}
+
+section {
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+section ul {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    list-style-type: "- ";
 }
 
 main p {
-    width: 800px;
-    font-size: 25px;
-    margin: 80px auto;
+    width: 950px;
+    font-size: 1.5em;
+    margin: 80px auto 40px;
+    font-weight: 100;
 }
 
-main img {
+img {
     display: block;
     margin: auto;
+    width: 50%;
 }
 
 hr {
     width: 800px;
 }
 
-.titleIngredients {
-    color: red;
+section img {
+    display: block;
+    margin: auto;
+}
+
+section ol {
+    list-style-type: none;
+    counter-reset: section;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin: 1rem auto 3rem 3rem;
+}
+
+section ol li {
+    margin-bottom: 0.5rem;
+}
+section ol li::before {
+    content: "" counter(section) ") ";
+    counter-increment: section;
+
 }
