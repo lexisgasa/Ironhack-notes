@@ -1,15 +1,18 @@
-body {
-    height: 4000px;
-}
 
 .titulo {
     position: fixed;
+    /* vw = viewport */
+    width: 100vw;
+    /* z index is a 3d plane element, therefore as bigger the number, the more
+    overexposed than other items it will be */
+    z-index: 1; 
 }
 
 
 img {
     height: 100px;
     width: 100px;
+    position: absolute;
 }
 
 
@@ -31,22 +34,18 @@ img {
 
 /* REFACTOR */
 .images img:nth-child(1){
-    position: absolute;
     top: 0;
     left: 0;
 }
 .images img:nth-child(2){
-    position: absolute;
     top: 0;
     right: 0;
 }
 .images img:nth-child(3){
-    position: absolute;
     bottom: 0;
     right: 0;
 }
 .images img:nth-child(4){
-    position: absolute;
     bottom: 0;
     left: 0;
 }
@@ -58,6 +57,6 @@ body > div:nth-child(2){
     left: 150px;
     width: 650px;
     height: 650px;
-    border: 1px solid  black;
+    border: 1px solid black;
 }
 
