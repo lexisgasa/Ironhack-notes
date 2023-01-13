@@ -1,0 +1,21 @@
+
+div {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    transition: all 2s ease-in-out 300ms;
+}
+
+div:hover {
+    background-color: mediumslateblue;
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+
+
+/* Creamos un documento con un div de width y height 250px. 
+Le damos un background-color rojo. Le aplicamos una transición a este div para que cuando hacemos hover encima cambie el color,
+ la width y la height (escoged el timing y la duration que queráis) . 
+ También vamos a moverlo 100px a la derecha cuando se hace hover. */
