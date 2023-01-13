@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+}
+/* Header bar section styling */
+header {
+    display: flex;
+    justify-content:space-between;
+}
+
+header img {
+    width: 200px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+/* First image and background styling */
+
+main {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    /* y axis */
+    align-items: center;
+    /* x axis */
+    justify-content: center;
+}
+
+main div {
+    color: white;
+}
+
+main div:first-child {
+    font-size: 8em;
+}
+
+main div:last-child {
+    width: 550px;
+    font-size: 3em;
+    font-weight: 300;
+    text-justify: distribute;
+    text-align: center;
+}
+
+ /* White section  */
+
+section {
+    margin: 30px;
+}
+
+section div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ section img {
+    height: 70px;
+ }
+ section h2 {
+    font-size: 2em;
+    color: #00B172;
+ }
+ section p {
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 140px;
+    text-align: center;
+ }
+
+ .section-title {
+    font-size: 3em;
+}
+
+.speaker {
+    display: flex;
+    flex-direction:column;
+}
+.wave {
+    display: flex;
+    flex-direction:column;
+}
+.devices {
+    display: flex;
+    flex-direction:column;
+}
+
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/

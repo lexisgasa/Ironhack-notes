@@ -1,0 +1,14 @@
+#firstSection {
+  display: flex;
+  justify-content: center;
+}
+
+#secondSection {
+  display: flex;
+
+}
+
+.secondDiv {
+    display: flex;
+    flex-wrap: wrap;
+}

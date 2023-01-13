@@ -1,0 +1,21 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Class ex nº1 */
+.container {
+    display: grid;
+    height: 100vw;
+    grid-template-rows: 10% 60% 10%;
+}
+
+.container .one {
+    background-color: pink;
+}
+.container .two {
+    background-color: skyblue;
+}
+.container .three {
+    background-color: beige;
+}
