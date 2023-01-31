@@ -29,10 +29,18 @@ npm run build
 ```
 
 
-#### Estructura de un component Vue v- compoisition API
+#### Template de un nuevo componente Vue, compoisition API
 <!-- HTML -->
-<template></template>
+<template>
+
+</template>
+
 <!-- JS - Logica  -->
-<script setup></script>
+<script setup>
+
+</script>
+
 <!-- Estilos aquí -->
-<style scoped></style>
+<style scoped>
+
+</style>
