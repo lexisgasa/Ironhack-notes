@@ -2,7 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 import MyFirstComponent from "./components/vueBasics/0.MyFirstComponent.vue"
-import Exercise from "./components/vueBasics/01. VindingExercise-practice.vue"
+import VindingExercise from "./components/vueBasics/01. VindingExercise-practice.vue"
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import Exercise from "./components/vueBasics/01. VindingExercise-practice.vue"
 
   <main>
     <!-- <MyFirstComponent /> -->
-    <Exercise />
+    <!-- <VindingExercise /> -->
 
   </main>
 </template>
